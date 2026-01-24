@@ -61,8 +61,28 @@ Text wrangling and Pre-Processing -> Conversion, sanitiation, tokenization, stre
 Language Understanding (structure/syntax) -> Parts of speech (POS) tagging, chunking, dependencyy parsing, constituency parsing
 Processing annd Functionality -> Named entity recognition (NER), n-gram identification, sentiment analysis, information exttraction, information retrieval, question and answering, topic modeling.
 
+## Supervised and Unsupervised learning
+
+### Supervised
+
+- A machine learning task/function that needs a training data, which is provided the labeled data (correct answer) and machine learning learns from the results.
+  - Classification
+  - Regression
+
+### Unsupervised 
+
+- Task/function does not need a training data, it will take unlabeled data and discover its patterns, applying its own labels.
+  - Clusterig
+  - Association
+  - Dimentionality reduction
+ 
+Supervised learning tends to be more accurate than Unsupervised, but it requires more upfront work. On the other hand, unsupervised requires more human intervention in order to validate the results.
+
+## ML Model
 
 
+
+  
 
 
   
