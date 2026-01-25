@@ -135,6 +135,34 @@ Training fhase, the model learns semantics (patterns) of language, like: gramar,
 
 ## Tokens and Capaticy
 
+Transformer decoder the sequence of tokens back.
+
+Encoder - Decoder
+
+Memory -> Each token requires memory.
+Compute -> Model performs more operations for each additional token, which longer senquences require more compute.
+
+## Prompt tuning
+
+LLMs follow parameters like temperature, output token limit, seed, top-p.
+
+- Temperature - control randommness in the output, which low value is more deterministic and low value is more creative.
+- Output token limit - Limit the in output response, that low value is shorter responses and it has lower cost. On the other hand, ligh value is longer responses and higher cost.
+- Seed - Initializes the model's randon generator
+- Top P - Theshold for sample output tokens. Low value is more conservative sampling and high value is more variety (creative).
+
+Recommendation: Run Temperature or Top-P and not both at the same time.
+
+## Zero Shot
+
+Model peforms the expected task with **no prior knowledge or examples*** which is provided during prompting.
+Example:
+
+´´´
+Classify the text into positive or negative.
+Text: She is a excellente teacher. She's happy for it.
+Sentiment: Positive
+´´´
 
 
   
