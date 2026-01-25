@@ -127,8 +127,7 @@ LLMs are specialized subset of FMs, they use transformer architecture.
 <img width="553" height="190" alt="image" src="https://github.com/user-attachments/assets/60eaba60-a1b7-4fd4-ab98-21cb3f12d62a" />
 
 
-
-Source: [link]([https://www.youtube.com/watch?v=30diF8dKpAY)
+Source: [https://www.youtube.com/watch?v=30diF8dKpAY]
 
   
   
