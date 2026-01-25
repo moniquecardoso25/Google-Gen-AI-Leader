@@ -80,9 +80,31 @@ Supervised learning tends to be more accurate than Unsupervised, but it requires
 
 ## ML Model
 
+It is an informative representation of an object, person or system. It can be:
+- concrete -> physical form (design for vehicle, person posing for a painting)
+- abstract -> behavioural patters (mathematical, compute code, written words)
 
+Function which takes data, peforms ML algorithm to produce a prediction, which is trained.
+
+## Feature
+
+Charactheristic extracted from unstructured dataset, it's being prepared to be ingested by ML model to infer prediction
+Generally, models only accept numerical data, but data is prepared into a machine-readable format y encoding)
+
+Feature Engineering
+
+- Extract features from provided data sources.
+
+## Inference
+
+Resquest and get a prediction.
+- Input model inside a ML model which has been deployed for production use to outputt a prediction.
+Examples:
+
+- banana picture -> What is this ML model -> Class: Yellow Banana, Confidence: 0,9%.
 
   
+
 
 
   
