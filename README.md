@@ -182,5 +182,16 @@ The context window of the prompt is too small to complete a single large or comp
 Complex Prompt
 - Google Cloud has a GenAI certification, which helps people to gain more knowledge in google tools about Generative AI. This certification is amazing for the professional resume.
 
+Simple prompy
+- (Iterative over each line) Translate the text from Spanish to English.
+- (List) Give the grocery shopping list.
+- (Iterative over list) Provide 5 examples os this grammar rule and explain it.
+
+## Chain-of-Thought (CoT) Prompting
+
+Tell the model to do step-by-step to produces more accurate results.
+
+
+
 
 
