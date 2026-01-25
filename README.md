@@ -158,9 +158,29 @@ Recommendation: Run Temperature or Top-P and not both at the same time.
 Model peforms the expected task with **no prior knowledge or examples*** which is provided during prompting.
 Example:
 
-´´´Classify the text into positive or negative.
-Text: She is a excellente teacher. She's happy for it.
-Sentiment: Positive´´´
+- Classify the text into positive or negative.
+  - Text: She is a excellente teacher. She's happy for it.
+  -  Sentiment: Positive
 
+## Few Shot
 
+Model peforms the expected task **with examples** in prompts input
   
+- Tweet: "I don't like my phone.": Sentiment: Negative
+- Tweet: "I love my day, he's great.": Sentiment: Positive
+- Tweet: "This is the link to the website": Sentiment: Neutral
+
+Input
+- Tweet: " This music is amazing". Sentiment: Positive
+Output: Positive
+
+## Prompt Chaining 
+
+**Output of one LLM prompt is used as input for next prompt.**
+The context window of the prompt is too small to complete a single large or complex task.
+
+Complex Prompt
+- Google Cloud has a GenAI certification, which helps people to gain more knowledge in google tools about Generative AI. This certification is amazing for the professional resume.
+
+
+
