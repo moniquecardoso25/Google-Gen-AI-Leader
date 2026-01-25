@@ -158,11 +158,9 @@ Recommendation: Run Temperature or Top-P and not both at the same time.
 Model peforms the expected task with **no prior knowledge or examples*** which is provided during prompting.
 Example:
 
-´´´
-Classify the text into positive or negative.
+´´´Classify the text into positive or negative.
 Text: She is a excellente teacher. She's happy for it.
-Sentiment: Positive
-´´´
+Sentiment: Positive´´´
 
 
   
