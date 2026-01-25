@@ -108,12 +108,17 @@ Examples:
 - Trained on vast amounts of data. FM is pretrained due to fine tuned for specific tasks.
 
 Data
-- Text                                                           Prediction
-                                                                 Text Generation
-- Images                                                         Classification                            
-- Videos                                                         Video Generation
-- Structured data                                                Image Generation
-                                                                 Audio Generation
+- Text                                                                                                                         
+- Images                                                                                    
+- Videos                                                         
+- Structured data                                               
+- Prediction
+- Text Generation
+- Classification
+- Video Generation
+- Audio Generation
+- Image Generation
+                                                                
 
 LLMs are specialized subset of FMs, they use transformer architecture.
 
