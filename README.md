@@ -103,9 +103,26 @@ Examples:
 
 - banana picture -> What is this ML model -> Class: Yellow Banana, Confidence: 0,9%.
 
-  
+## Foundational Model (FM)
+
+- Trained on vast amounts of data. FM is pretrained due to fine tuned for specific tasks.
+
+Data
+- Text                                                           Prediction
+- Images                   TRAINING                  USES        Classification
+                          ----------------------> FM ------->    Text Generation
+- Videos                                                         Video Generation
+- Structured data                                                Image Generation
+                                                                 Audio Generation
+
+LLMs are specialized subset of FMs, they use transformer architecture.
+
+## LLM
+
+<img width="553" height="190" alt="image" src="https://github.com/user-attachments/assets/60eaba60-a1b7-4fd4-ab98-21cb3f12d62a" />
 
 
+Source: (Link)[https://www.youtube.com/watch?v=30diF8dKpAY]
 
   
   
